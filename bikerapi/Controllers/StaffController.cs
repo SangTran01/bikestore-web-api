@@ -23,6 +23,7 @@ namespace bikerapi.Controllers
         [HttpGet]
         public async Task<IEnumerable<Staff>> GetStaffs()
         {
+            //another comment
             var res = await _staffRepository.GetStaffs();
             return res;
         }
